@@ -1,0 +1,14 @@
+{
+  "name": "test_block2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass --watch scss/index.scss css/index.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.71.1"
+  }
+}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Prompt';
+    src: local('Prompt Light'), local('Prompt-Light'), url('../fonts/prompt/PromptLight.woff2') format('woff2'), url('../fonts/prompt/PromptLight.woff') format('woff'), url('../fonts/prompt/PromptLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: local('Prompt Medium'), local('Prompt-Medium'), url('../fonts/prompt/PromptMedium.woff2') format('woff2'), url('../fonts/prompt/PromptMedium.woff') format('woff'), url('../fonts/prompt/PromptmMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: local('Prompt Bold'), local('Prompt-Bold'), url('../fonts/prompt/PromptBold.woff2') format('woff2'), url('../fonts/prompt/PromptBold.woff') format('woff'), url('../fonts/prompt/PromptBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+

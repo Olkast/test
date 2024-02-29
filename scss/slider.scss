@@ -1,0 +1,157 @@
+.slider {
+  max-width: 321px;
+  margin: 25px auto;
+  overflow: hidden;
+}
+
+.slider_line {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  transition: all ease 1s;
+}
+
+.slider_block {
+  position: relative;
+}
+
+.slider_info {
+  display: none;
+  padding: 18px 24px 0;
+  position: absolute;
+  top: 65%;
+  left: 4%;
+  min-width: 246px;
+  border: 1px solid rgba(94, 94, 94, 0.05);
+  background-color: #FFFFFFA1;
+}
+
+.slider_info.active {
+  display: block;
+}
+
+.slider_info.active {
+  display: block;
+}
+
+.slider_info_title {
+  margin: 0;
+  font-family: Prompt, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: var(--white);
+}
+
+.slider_info_details {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 102px;
+}
+
+.slider_details_text {
+  font-family: Prompt, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: var(--blue);
+}
+
+.slider_next_button {
+  cursor: pointer;
+  position: absolute;
+  top: 46%;
+  right: 4%;
+}
+
+.slider_prev_button {
+  cursor: pointer;
+  position: absolute;
+  top: 46%;
+  left: 4%;
+}
+
+.slider_prev_button,
+.slider_next_button {
+  width: 21px;
+}
+
+.slider_wrapper {
+  display: flex;
+  column-gap: 10px;
+  position: absolute;
+  bottom: 23%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider_dot {
+  cursor: pointer;
+  width: 28px;
+  height: 3px;
+  border: 1px solid var(--light-white);
+  background: var(--light-white);
+}
+
+.active-dot {
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+
+.slider_dot:hover {
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+
+@media only screen and (min-width: 460px) {
+  .slider_wrapper {
+    bottom: 29%;
+  }
+
+  .slider_prev_button,
+  .slider_next_button {
+    top: 45%;
+  }
+}
+
+@media only screen and (min-width: 692px) {
+  .slider_wrapper {
+    bottom: 30%;
+  }
+
+  .slider_prev_button,
+  .slider_next_button {
+    top: 35%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .slider {
+    max-width: 540px;
+  }
+
+  .slider_wrapper {
+    bottom: 32%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .slider_info {
+    top: 75%;
+  }
+
+  .slider_info_details {
+    display: none;
+  }
+
+  .slider_prev_button,
+  .slider_next_button {
+    top: 260px;
+  }
+}
